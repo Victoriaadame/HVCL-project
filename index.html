@@ -5,7 +5,18 @@
 
     </head>
     <body>
-        <h1>Chico Shenanigans</h1>
+        <h1 class="bounce">Chico Shenanigans</h1>
+
+<style>
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0) }
+  50% { transform: translateY(-20px) }
+}
+</style>
 
         <div class="slideshow-container">
   <img id="slide" src="image1.jpg" alt="Slideshow Image">
