@@ -5,11 +5,11 @@ const slides = [
   },
   {
     image: "https://photos.cinematreasures.org/production/photos/34687/1327864998/large.jpg?1327864998",
-    caption: "Every town has its haunts chico is no exeption.the most famous of our so-called haunted buildings: the Senator Theatre. Legend has it that the second floor is inhabited by the ghost of a Native American child, but experiences vary."
+    caption: "Every town has its haunts chico is no exeption.The most famous of our so-called haunted buildings: the Senator Theatre. Legend has it that the second floor is inhabited by the ghost of a Native American child, but experiences vary."
   },
   {
     image: "https://upload.wikimedia.org/wikipedia/commons/0/07/Bidwell_Mansion%2C_May_2021.jpg",
-    caption: "The bidwell mansion is a historical landmark in Chico, California. It was built in 1868 by John and Annie Bidwell and was a museum that showcases the history of the area. But unfortunately, it was burnd down on Wednesday, December 11, 2024"
+    caption: "The bidwell mansion is a historical landmark in Chico, California. It was built in 1868 by John and Annie Bidwell and was a museum that showcases the history of the area. But unfortunately, it was burned down on Wednesday, December 11, 2024"
   },
 
   {
