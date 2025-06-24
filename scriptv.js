@@ -1,7 +1,7 @@
 const slides = [
   {
     image: "https://images.immediate.co.uk/production/volatile/sites/10/2022/01/2048x1365-Prunus-dulcis-SEO-GettyImages-1149096340-5ab80f6.jpeg?quality=90&webp=true&resize=1200,800",
-    caption: "Chico has always been a hotbed for almond growers.And the people are very specific on what they are called. They are amends not almonds.Because as I have been told they shake the L out of it"
+    caption: "Chico has always been a hotbed for almond growers.And the people are very specific on what they are called. They are amonds not almonds.Because as I have been told they shake the L out of it"
   },
   {
     image: "https://photos.cinematreasures.org/production/photos/34687/1327864998/large.jpg?1327864998",
