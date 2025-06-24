@@ -16,6 +16,11 @@ const slides = [
     image:"https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/VC_UndergroundCalifornia_Module06_BurroSchmidtTunnel_Supplied_Flickr_11776098265_4a5ae30e59_1280x640.jpg.webp?itok=MuGAmTPD",
     caption: "Locals have long spread a rumor that, early in Chico’s history, Chinese workers built and used tunnels underneath downtown Chico, and even set up opium dens."
   },
+
+  {
+    image:"https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/048E/production/_97466110_maol.jpg.webp",
+    caption: "In 1922, Chico, California experienced a series of \"rock showers\" where rocks, some as large as baseballs, fell from the sky onto a warehouse and nearby homes. The phenomenon, which lasted for several weeks in March, baffled authorities and residents alike. Despite investigations, the source of the rocks remained a mystery."
+  },
 ];
 
 let current = 0;
