@@ -72,3 +72,24 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+.glow-text {
+      font-size: 48px;
+      color: white;
+      text-shadow: 0 0 5px #fff, 
+                   0 0 10px #79e593, 
+                   0 0 20px rgb(131, 234, 158), 
+                   0 0 30px #f0f, 
+                   0 0 40px rgb(1, 76, 35);
+      /*background-color: black;  So the glow is visible */
+      padding: 20px;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0) }
+  50% { transform: translateY(-20px) }
+}
