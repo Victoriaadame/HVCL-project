@@ -98,7 +98,7 @@ h1 {
 image-left3 
 {
   float: left;
-  margin-right: 5px; /* Add some space between image and text */
+  margin-right: 10px; /* Add some space between image and text */
 }
 
 .Text_BOX4 {
@@ -107,18 +107,40 @@ image-left3
   color: rgb(0, 0, 0);
   text-align:justify;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 23px;
+  font-size: 32px;
   border: 7px solid  rgba(123, 8, 8, 0.807);
   display: inline-block;
   padding: 20px;
-  height: 350px;
-  width: 600px;
+  height: 670px;
+  width:600px;
   justify-content: center;
   border-radius: 10px;
 }
 
-image-left4
+.image-left4
 {
   float:left;
-  margin-right: 5px; /* Add some space between image and text */
+  margin-right: 10px; /* Add some space between image and text */
+}
+
+.Text_BOX6 {
+  text-align: end;
+  background-color: rgba(255, 255, 255, 0.773);
+  color: rgb(0, 0, 0);
+  text-align:justify;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  border: 7px solid  rgba(123, 8, 8, 0.807);
+  display: inline-block;
+  padding: 20px;
+  height: 500px;
+  width:600px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.image-left6
+{
+  float:left;
+  margin-right: 10px; /* Add some space between image and text */
 }
