@@ -6,9 +6,16 @@ body {
 /* Main styling for the body */
 body {
   text-align: center;         /* Centers all text and elements horizontally */
-  background: #111;           /* Dark background color (almost black) */
+  /*background: #111;*/           /* Dark background color (almost black) */
   color: #fff;                /* White text color */
   font-family: sans-serif;    /* Fallback font */
+
+  /* Background styles*/     
+  background-image: url("../untitledDesign.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 /* Container for the slideshow */
@@ -69,14 +76,6 @@ body {
   max-width: 900px;
   height: auto;
   aspect-ratio: 16 / 9; /* keeps a nice widescreen shape */
-}
-
-body {
-  background-image: url("Untitled\ design.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .glow-text {
