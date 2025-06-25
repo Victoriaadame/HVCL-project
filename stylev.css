@@ -101,25 +101,25 @@ body {
 }
 
  /* Set background color and center content */
-    body tree {
+    body flower {
       background: #eef; /* light blue background */
-      text-align: center; /* center the tree icon */
+      text-align: center; /* center the flower icon */
       padding-top: 100px; /* space from the top */
       font-family: sans-serif;
     }
 
-    /* Style for the tree icon */
-    .tree {
-      font-size: 90px; /* makes the tree emoji large */
+    /* Style for the flower icon */
+    .flower {
+      font-size: 90px; /* makes the flower emoji large */
       cursor: pointer; /* changes cursor to pointer on hover */
       display: inline-block;
       transition: transform 2s ease-in, opacity 2s ease-in;
       /* makes it animate when transformed or faded */
     }
 
-    /* Class that makes the tree "fly away" */
+    /* Class that makes the flower "fly away" */
     .fly-away {
       transform: translateY(-1000px) rotate(720deg);
-      /* moves the tree up and spins it */
+      /* moves the flower up and spins it */
       opacity: 0; /* fades it out */
     }
