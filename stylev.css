@@ -101,7 +101,7 @@ body {
 }
 
  /* Set background color and center content */
-    body flower {
+    body tree {
       background: #eef; /* light blue background */
       text-align: center; /* center the flower icon */
       padding-top: 100px; /* space from the top */
@@ -109,7 +109,7 @@ body {
     }
 
     /* Style for the flower icon */
-    .flower {
+    .tree {
       font-size: 90px; /* makes the flower emoji large */
       cursor: pointer; /* changes cursor to pointer on hover */
       display: inline-block;
