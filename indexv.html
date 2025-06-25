@@ -6,8 +6,12 @@
     </head>
     <body>
         <h1 class="bounce glow-text">Chico Shenanigans</h1>
+        
 
+ <!-- Tree icon-->
+<div id="tree" class="tree"> &#127804
 
+</div>
 
 
         <div class="slideshow-container">
@@ -20,10 +24,12 @@
 
 <br><br>        
 
-<label for="feedback">What is the craziest thing you have experienced in Chico?</label><br>
-<textarea id="feedback" name="feedback" rows="10" cols="50" placeholder="Type your message here..."></textarea><br><br>
+<label for="feedback">What is the craziest thing you have experienced in Chico?</label>
+<button onclick="submitFeedback()">Submit</button> <br><br>
+<!-- text for textarea -->
+<textarea id="feedback" name="feedback" rows="10" cols="50" placeholder="Type your message here..."></textarea>
 
-<button onclick="submitFeedback()">Submit</button>
+
 
 <script>
   function submitFeedback() {
@@ -31,6 +37,7 @@
     alert("Thank you for your story:\n" + message);
   }
 </script>
+
 
         <script src="scriptV.js"></script>
     </body>

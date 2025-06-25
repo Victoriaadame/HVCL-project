@@ -1,3 +1,4 @@
+// Array of slide objects, each with an image URL and a caption
 const slides = [
   {
     image: "https://images.immediate.co.uk/production/volatile/sites/10/2022/01/2048x1365-Prunus-dulcis-SEO-GettyImages-1149096340-5ab80f6.jpeg?quality=90&webp=true&resize=1200,800",
@@ -22,14 +23,30 @@ const slides = [
     caption: "In 1922, Chico, California experienced a series of \"rock showers\" where rocks, some as large as baseballs, fell from the sky onto a warehouse and nearby homes. The phenomenon, which lasted for several weeks in March, baffled authorities and residents alike. Despite investigations, the source of the rocks remained a mystery."
   },
 ];
-
+// Current slide index (starts at the first slide)
 let current = 0;
 
+/*
+  Function to change slides.
+  - direction is either +1 (next) or -1 (previous)
+*/
 function changeSlide(direction) {
+  // Update the current index with wraparound using modulo
   current = (current + direction + slides.length) % slides.length;
+    // Set the image source to the current slide's image
   document.getElementById("slide").src = slides[current].image;
+    // Set the caption text to the current slide's caption
   document.getElementById("caption").textContent = slides[current].caption;
 }
 
 // Show the first slide initially
 changeSlide(0);
+
+ // Get the tree element by its ID
+    const tree = document.getElementById('tree');
+
+    // When the tree is clicked...
+    tree.addEventListener('click', () => {
+      // ...add the 'fly-away' class to trigger animation
+      tree.classList.add('fly-away');
+    });
