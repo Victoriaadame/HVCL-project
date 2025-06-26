@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styleV.css">
+
+    </head>
+    <body>
+        <h1 class="bounce glow-text">Chico Shenanigans</h1>
+        
+
+ <!-- tree icon I know its a flower but when I changed the id name it stopped working-->
+<div id="tree" class="tree"> 🌼
+
+</div>
+
+
+        <div class="slideshow-container">
+  <img id="slide" src="image1.jpg" alt="Slideshow Image">
+  <div id="caption" class="caption">Caption for Image 1</div>
+
+  <button class="prev" onclick="changeSlide(-1)">❮</button>
+  <button class="next" onclick="changeSlide(1)">❯</button>
+</div>
+
+<br><br>        
+
+<label for="feedback">What is the craziest thing you have experienced in Chico?</label>
+<button onclick="submitFeedback()">Submit</button> <br><br>
+<!-- text for textarea -->
+<textarea id="feedback" name="feedback" rows="10" cols="50" placeholder="Type your message here..."></textarea>
+
+
+
+<script>
+  function submitFeedback() {
+    const message = document.getElementById("feedback").value;
+    alert("Thank you for your story:\n" + message);
+  }
+</script>
+
+
+        <script src="js/scriptV.js"></script>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+/* Sets a default font for the entire body */
+body {
+  font-family: Lucida Sans;
+}
+
+/* Main styling for the body */
+body {
+  text-align: center;         /* Centers all text and elements horizontally */
+  /*background: #111;*/           /* Dark background color (almost black) */
+  color: #fff;                /* White text color */
+  font-family: sans-serif;    /* Fallback font */
+
+  /* Background styles*/     
+  background-image: url("../untitledDesign.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Container for the slideshow */
+.slideshow-container {
+  position: relative;         /* Allows absolutely positioned children */
+  display: inline-block;      /* Makes the container size to fit its content */
+  width: 600px;               /* Fixed width for slideshow */
+  height: 400px;              /* Fixed height for slideshow */
+  overflow: hidden;           /* Hides anything outside the container box */
+}
+
+/* Styling for the image inside the slideshow */
+#slide {
+  width: 100%;                /* Makes image span the full width of the container */
+  height: 100%;               /* Makes image span the full height of the container */
+  object-fit: cover;          /* Ensures the image fills the container without distortion */
+  transition: opacity 0.5s ease-in-out; /* Smooth fade effect when image changes */
+}
+
+/* Styles for the caption text that appears over the image */
+.caption {
+  position: absolute;               /* Position over the image */
+  bottom: 20px;                     /* 20px from the bottom of the container */
+  left: 0;                          /* Align to the left edge */
+  width: 100%;                      /* Stretch across the full width */
+  text-align: center;              /* Center the caption text */
+  font-size: 20px;                 /* Text size */
+  color: #fff;                     /* White text color */
+  background: rgba(0, 0, 0, 0.5);  /* Semi-transparent black background for contrast */
+  padding: 10px 0;                 /* Top and bottom padding for spacing */
+}
+
+/* Common styles for both previous and next arrow buttons */
+.prev, .next {
+  position: absolute;              /* Allows precise placement */
+  top: 50%;                        /* Vertically center in the container */
+  transform: translateY(-50%);     /* Adjust to truly center by shifting upward */
+  font-size: 30px;                /* Arrow/text size */
+  color: white;                   /* Arrow color */
+  background: rgba(0,0,0,0.5);     /* Semi-transparent background */
+  border: none;                   /* Removes default button border */
+  padding: 10px;                  /* Space around the arrow */
+  cursor: pointer;                /* Pointer cursor on hover */
+  z-index: 1;                     /* Places arrows above other elements */
+}
+
+/* Specific positioning for the "previous" arrow (left side of image) */
+.prev {
+  left: 0;                        /* Stick to the left edge of container */
+}
+
+.next {
+  right: 0;                        /* Stick to the right edge of container */
+}
+
+.slideshow-container {
+  width: 90%;
+  max-width: 900px;
+  height: auto;
+  aspect-ratio: 16 / 9; /* keeps a nice widescreen shape */
+}
+
+.glow-text {
+      font-size: 48px;
+      color: white;
+      text-shadow: 0 0 5px #fff, 
+                   0 0 10px #79e593, 
+                   0 0 20px rgb(131, 234, 158), 
+                   0 0 30px #f0f, 
+                   0 0 40px rgb(1, 76, 35);
+      /*background-color: black;  So the glow is visible */
+      padding: 20px;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0) }
+  50% { transform: translateY(-20px) }
+}
+
+ /* Set background color and center content */
+    body tree {
+      background: #eef; /* light blue background */
+      text-align: center; /* center the flower icon */
+      padding-top: 100px; /* space from the top */
+      font-family: sans-serif;
+    }
+
+    /* Style for the flower icon */
+    .tree {
+      font-size: 90px; /* makes the flower emoji large */
+      cursor: pointer; /* changes cursor to pointer on hover */
+      display: inline-block;
+      transition: transform 2s ease-in, opacity 2s ease-in;
+      /* makes it animate when transformed or faded */
+    }
+
+    /* Class that makes the flower "fly away" */
+    .fly-away {
+      transform: translateY(-1000px) rotate(720deg);
+      /* moves the flower up and spins it */
+      opacity: 0; /* fades it out */
+    }
