@@ -1,0 +1,150 @@
+/* Smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Grid navigation bar */
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    background-color: rgba(123, 8, 8, 0.807);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/* Grid items (also clickable links now) */
+.nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    background-color: rgba(123, 8, 8, 0.807);
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+/* Use existing .item and .redirect-link for consistent styling */
+.item {
+    background-color: rgba(123, 8, 8, 0.807);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    border: 4px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.redirect-link {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.redirect-link:hover {
+    background-color: #0056b3;
+}
+
+
+/* Body styling */
+body {
+    background-color: rgba(220, 218, 218, 0.815);
+    color: rgb(93, 54, 21);
+}
+
+/* Header styles */
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(123, 8, 8, 0.807);
+    border: 5px solid rgb(71, 66, 62);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+h2 {
+    background-color: rgba(123, 8, 8, 0.807);
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border: 2px solid black;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 5px;
+    height: 30px;
+    width: 600px;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.underlined-heading {
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+/* Text box shared styles */
+.Text_BOX,
+.Text_BOX2,
+.Text_BOX3,
+.Text_BOX4,
+.Text_BOX6 {
+    background-color: rgba(255, 255, 255, 0.773);
+    color: black;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 7px solid rgba(123, 8, 8, 0.807);
+    display: inline-block;
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* Unique heights per section (optional to tweak) */
+.Text_BOX {
+    height: 500px;
+    font-size: 23px;
+}
+
+.Text_BOX2 {
+    height: 700px;
+    font-size: 23px;
+}
+
+.Text_BOX3 {
+    height: 500px;
+    font-size: 23px;
+}
+
+.Text_BOX4 {
+    height: 670px;
+    font-size: 32px;
+}
+
+.Text_BOX6 {
+    height: 500px;
+    font-size: 32px;
+}
+
+/* Image floating styles */
+.image-left1,
+.image-left2,
+.image-left4,
+.image-left6 {
+    float: left;
+    margin-right: 10px;
+}
+
+.image-left1 {
+    float: right;
+    margin-left: 10px;
+}
+
